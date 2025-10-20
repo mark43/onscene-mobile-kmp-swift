@@ -12,7 +12,7 @@ let package = Package(
    targets: [
       .binaryTarget(
          name: "shared-kmp",
-         url: "https://repository.mark43.io/artifactory/onscene-maven/com/mark43/onscene/kmp/shared-kmp-framework/0.0.2/shared-kmp-framework-0.0.2.xcframework.zip",
-         checksum:"94253a6a75a033bf4d94c25da73eff909f9a7ded363eabadbb2e517d2f84908a")
+         url: "https://repository.mark43.io/artifactory/onscene-maven/com/mark43/onscene/kmp/shared-kmp-framework/0.0.1/shared-kmp-framework-0.0.1.xcframework.zip",
+         checksum:"557ef483b30bbccae95af1889c3abe5d4ad397ff2cb708eb7f6282bcdb929af2")
    ]
 )
