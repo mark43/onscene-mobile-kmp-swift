@@ -2,17 +2,17 @@
 import PackageDescription
 
 let package = Package(
-   name: "shared-kmp",
+   name: "OnSceneKmp",
    platforms: [
      .iOS(.v17),
    ],
    products: [
-      .library(name: "shared-kmp", targets: ["shared-kmp"])
+      .library(name: "OnSceneKmp", targets: ["OnSceneKmp"])
    ],
    targets: [
       .binaryTarget(
-         name: "shared-kmp",
-         url: "https://github.com/mark43/onscene-mobile-kmp-swift/releases/download/0.1.0-beta1/OnSceneKmp-0.1.0-beta1.xcframework.zip",
-         checksum:"d99f85e9c5a9e5594d61c9f0fc16d91c2f6b4ab58f2408bcaa2aeddceed08371")
+         name: "OnSceneKmp",
+         url: "https://github.com/mark43/onscene-mobile-kmp-swift/releases/download/0.1.0-beta5/OnSceneKmp-0.1.0-beta5.xcframework.zip",
+         checksum:"0d9e76745db361292a0af2f391fdf1a4d09296701ed2c771437765b80e3c4a35")
    ]
 )
