@@ -12,7 +12,7 @@ let package = Package(
    targets: [
       .binaryTarget(
          name: "OnSceneKmp",
-         url: "https://github.com/mark43/onscene-mobile-kmp-swift/releases/download/1.6.7/OnSceneKmp-1.6.7.xcframework.zip",
-         checksum:"c95d7d7e715ee540591c9055be7d220aa340a91fb22b4790b26533073c377356")
+         url: "https://github.com/mark43/onscene-mobile-kmp-swift/releases/download/1.6.8/OnSceneKmp-1.6.8.xcframework.zip",
+         checksum:"d18d2a64198977e861a184c60396e67daa0123df240d375d20b0fc10934fc106")
    ]
 )
